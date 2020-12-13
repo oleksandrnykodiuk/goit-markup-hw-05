@@ -309,6 +309,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   color: var(--primary-text-color);
+  cursor: pointer;
 
   transition: 250ms var(--timing-fn);
 }
@@ -736,7 +737,7 @@ img {
   line-height: 1.87;
 }
 
-.portfolio-thumb {
+.projects-thumb {
   position: relative;
   overflow: hidden;
 }
@@ -752,7 +753,8 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.projects-link:hover .overlay-thumb {
+.projects-link:hover .overlay-thumb,
+.projects-link:focus .overlay-thumb {
   transform: translateY(0);
 }
 
